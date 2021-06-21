@@ -1,0 +1,48 @@
+ 
+  /*--------------------------------------------------------------
+  # About --> es el bloque main de sobremi
+  --------------------------------------------------------------*/
+  .about .content {
+    h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: $grisOscuro;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+          padding-bottom: 10px;
+        }
+        i {
+          font-size: 20px;
+          padding-right: 2px;
+          color: $rosa;
+        }
+      
+      }
+      p:last-child {
+          margin-bottom: 0;
+        }
+        
+
+}
+
+/*USANDO MAPS*/
+$pato: ( /*Declaramos nuestro mapa*/
+        1: #f83838,
+        2:  #4db125,
+        3: #2fc5ca,
+        4:#722fdd,
+        5: #eb29aa
+); 
+
+@each $pato, $color in $pato {
+  #patologia#{$pato} {
+      color: $color;
+  }
+}
+
+
+
+

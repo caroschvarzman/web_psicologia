@@ -1,0 +1,77 @@
+
+  /*--------------------------------------------------------------
+  # Recomendaciones --> testimonials es el bloque. 
+  --------------------------------------------------------------*/
+  .testimonials {
+
+    .section-header {
+      margin-bottom: 40px;
+    }
+  
+    .testimonial-item {
+      text-align: center;
+        h3 {
+          font-size: 20px;
+          font-weight: bold;
+          margin: 0px 0 5px 0;
+          color: $negro;
+        }
+        h4 {
+          font-size: 14px;
+          color: $grisOscuro;
+          margin: 0 0 15px 0;
+        }
+        .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+          color: $rosa;
+          font-size: 26px;
+        }
+        .quote-icon-left {
+          display: inline-block;
+          left: -5px;
+          position: relative;
+        }
+        .quote-icon-right {
+          display: inline-block;
+          right: -5px;
+          position: relative;
+          top: 10px;
+        }
+        p {
+          font-style: italic;
+          margin: 0 auto 15px auto;
+        }
+    }
+  
+    .owl-nav, .testimonials .owl-dots {
+      margin-top: 5px;
+      text-align: center;
+    }
+    .owl-dot {
+      display: inline-block;
+      margin: 0 5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: $rosa!important;
+    
+    .active {
+      background-color: $rosa !important;
+    }}
+    
+  } 
+    
+    
+    @media (min-width: 992px) {
+      .testimonials .testimonial-item p {
+        width: 80%;
+      }
+    }
+
+    @for $i from 1 through 5{
+      #testimonio-#{$i}{
+        background-color: rgb(44, 37, 43)*$i
+      }
+      @if $i<=3{#testimonio-#{$i}{color:$clarito;}} 
+      
+    }
+
