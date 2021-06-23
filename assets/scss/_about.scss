@@ -30,11 +30,11 @@
 
 /*USANDO MAPS*/
 $pato: ( /*Declaramos nuestro mapa*/
-        1: #f83838,
-        2:  #4db125,
-        3: #2fc5ca,
-        4:#722fdd,
-        5: #eb29aa
+        1: #1c0d02,
+        2:  #4b3621,
+        3: #a18594,
+        4:#572364,
+        5: #5d9b9b
 ); 
 
 @each $pato, $color in $pato {

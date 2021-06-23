@@ -310,18 +310,18 @@ section {
   background: url("../img/fondo.png") top right;
   background-size: cover; }
   #hero .container {
-    padding-top: 70px;
-    position: relative; }
+    position: relative;
+    bottom: 5vh; }
   #hero h1 {
-    margin: 0;
+    margin-top: 40px;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     color: #444444; }
-  #hero h2 {
-    color: black;
-    margin: 10px 0 0 0;
-    font-size: 22px; }
+  #hero h3 {
+    text-align: center;
+    color: #444444;
+    font-weight: 500; }
   #hero .btn-about {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -383,19 +383,19 @@ section {
 
 /*USANDO MAPS*/
 #patologia1 {
-  color: #f83838; }
+  color: #1c0d02; }
 
 #patologia2 {
-  color: #4db125; }
+  color: #4b3621; }
 
 #patologia3 {
-  color: #2fc5ca; }
+  color: #a18594; }
 
 #patologia4 {
-  color: #722fdd; }
+  color: #572364; }
 
 #patologia5 {
-  color: #eb29aa; }
+  color: #5d9b9b; }
 
 /*sobreMi y a quienes ayudamos --> ACÁ USE MAPS*/
 /*--------------------------------------------------------------

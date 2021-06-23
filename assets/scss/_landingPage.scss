@@ -7,24 +7,24 @@
     background: url("../img/fondo.png" ) top right;
     background-size: cover;
     .container {
-        padding-top: 70px;
         position: relative;
+        bottom:5vh;
       }
 
       h1 {
-        margin: 0;
+        margin-top:40px;
         font-size: 48px;
         font-weight: 700;
         line-height: 56px;
         color: $grisOscuro;
       }
+      h3 {
+        text-align: center;
+        color:$grisOscuro;
+        font-weight: 500;
+        }
 
-    h2 {
-        color:$negro;
-        margin: 10px 0 0 0;
-        font-size: 22px;
-      }
-
+   
     .btn-about {
         font-family: "Raleway", sans-serif;
         text-transform: uppercase;
