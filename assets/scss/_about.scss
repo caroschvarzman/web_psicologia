@@ -34,7 +34,10 @@ $pato: ( /*Declaramos nuestro mapa*/
         2:  #4b3621,
         3: #a18594,
         4:#572364,
-        5: #5d9b9b
+        5:#123d3d ,
+        6:#3e6666,
+        7:#3b3f3f,
+        8: #0d0e0e,
 ); 
 
 @each $pato, $color in $pato {
